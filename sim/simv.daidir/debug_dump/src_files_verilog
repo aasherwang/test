@@ -1,0 +1,9 @@
+/home/ICer/xiuzhenyuan_de/dct8x8-1/rtl/dct_8x8_buf_ctrl.v
+/home/ICer/xiuzhenyuan_de/dct8x8-1/rtl/dct_8x8_buf_data.v
+/home/ICer/xiuzhenyuan_de/dct8x8-1/rtl/dct_8x8_buf_top.v
+/home/ICer/xiuzhenyuan_de/dct8x8-1/rtl/dct_8x8_cal.v
+/home/ICer/xiuzhenyuan_de/dct8x8-1/rtl/dct_8x8_top.v
+/home/ICer/xiuzhenyuan_de/dct8x8-1/tb/BFM_RDY.sv
+/home/ICer/xiuzhenyuan_de/dct8x8-1/tb/BFM_VLD.sv
+/home/ICer/xiuzhenyuan_de/dct8x8-1/tb/CHECKER.sv
+/home/ICer/xiuzhenyuan_de/dct8x8-1/tb/tb.v

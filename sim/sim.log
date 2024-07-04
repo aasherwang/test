@@ -1,0 +1,51 @@
+Command: /home/ICer/xiuzhenyuan_de/dct8x8-1/sim/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  May  9 10:12 2023
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'hello.fsdb .fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+read file finished at verification file: ../data/blk_8x8_1d_row_0246_data.txt
+read file finished at verification file: ../data/blk_8x8_1d_row_1357_data.txt
+read file finished at verification file: ../data/blk_8x8_1d_col_0246_data.txt
+read file finished at verification file: ../data/blk_8x8_1d_col_1357_data.txt
+read file finished at verification file: ../data/blk_8x8_2d_col_0246_data.txt
+read file finished at verification file: ../data/blk_8x8_2d_col_1357_data.txt
+read file finished at verification file: ../data/blk_8x8_2d_row_0246_data.txt
+read file finished at verification file: ../data/blk_8x8_2d_row_1357_data.txt
+read file finished at testcase file ../data/blk_8x8_orig_data.txt
+verification current time:               50000,verification file:../data/blk_8x8_1d_row_0246_data.txt,data num:0
+verification current time:               50000,verification file:../data/blk_8x8_1d_row_1357_data.txt,data num:0
+verification current time:              130000,verification file:../data/blk_8x8_1d_col_0246_data.txt,data num:0
+verification current time:              130000,verification file:../data/blk_8x8_1d_col_1357_data.txt,data num:0
+verification current time:              130000,verification file:../data/blk_8x8_2d_col_0246_data.txt,data num:0
+verification current time:              130000,verification file:../data/blk_8x8_2d_col_1357_data.txt,data num:0
+verification current time:              210000,verification file:../data/blk_8x8_2d_row_0246_data.txt,data num:0
+verification current time:              210000,verification file:../data/blk_8x8_2d_row_1357_data.txt,data num:0
+verification current time:              410000,verification file:../data/blk_8x8_1d_row_0246_data.txt,data num:10
+verification current time:              410000,verification file:../data/blk_8x8_1d_row_1357_data.txt,data num:10
+verification current time:              490000,verification file:../data/blk_8x8_1d_col_0246_data.txt,data num:10
+verification current time:              490000,verification file:../data/blk_8x8_1d_col_1357_data.txt,data num:10
+verification current time:              490000,verification file:../data/blk_8x8_2d_col_0246_data.txt,data num:10
+verification current time:              490000,verification file:../data/blk_8x8_2d_col_1357_data.txt,data num:10
+verification current time:              570000,verification file:../data/blk_8x8_2d_row_0246_data.txt,data num:10
+verification current time:              570000,verification file:../data/blk_8x8_2d_row_1357_data.txt,data num:10
+data from verification file: ../data/blk_8x8_1d_row_0246_data.txt has all been checked at time:               590000
+data from verification file: ../data/blk_8x8_1d_row_1357_data.txt has all been checked at time:               590000
+data from testcase file: ../data/blk_8x8_orig_data.txt has all been outputed at time:               590000
+data from verification file: ../data/blk_8x8_1d_col_0246_data.txt has all been checked at time:               670000
+data from verification file: ../data/blk_8x8_1d_col_1357_data.txt has all been checked at time:               670000
+data from verification file: ../data/blk_8x8_2d_col_0246_data.txt has all been checked at time:               670000
+data from verification file: ../data/blk_8x8_2d_col_1357_data.txt has all been checked at time:               670000
+data from verification file: ../data/blk_8x8_2d_row_0246_data.txt has all been checked at time:               750000
+data from verification file: ../data/blk_8x8_2d_row_1357_data.txt has all been checked at time:               750000
+$finish called from file "../tb/tb.v", line 191.
+$finish at simulation time              1250000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1250000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.1Mb
+Tue May  9 10:12:47 2023

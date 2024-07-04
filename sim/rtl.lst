@@ -1,0 +1,13 @@
+../tb/tb.v
+../tb/BFM_RDY.sv
+../tb/BFM_VLD.sv
+../tb/CHECKER.sv
+
+../rtl/dct_8x8_top.v
+../rtl/dct_8x8_buf_top.v
+
+../rtl/dct_8x8_cal.v
+../rtl/dct_8x8_buf_ctrl.v
+../rtl/dct_8x8_buf_data.v
+
+
