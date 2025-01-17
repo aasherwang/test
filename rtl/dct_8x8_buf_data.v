@@ -2,26 +2,26 @@ module dct8x8_buf_data
 #(
 parameter DATA_WIDTH    = 8
 )(
-input                          clk                    ,
-input                          dct8x8_buf_wen         ,
-input                          dct8x8_buf_wr_row_flag ,
-input      [2:0]               dct8x8_buf_wptr        ,
-input      [DATA_WIDTH*16-1:0] dct8x8_buf_wdata       ,
+  input                                                  clk                           ,
+  input                                                  dct8x8_buf_wen                ,
+  input                                                  dct8x8_buf_wr_row_flag        ,
+  input          [               2:               0]     dct8x8_buf_wptr               ,
+  input          [ DATA_WIDTH*16-1:               0]     dct8x8_buf_wdata              ,
 
-input                          dct8x8_buf_rd_row_flag ,
-input      [2:0]               dct8x8_buf_rptr        ,
-output reg [DATA_WIDTH*16-1:0] dct8x8_buf_rdata
+  input                                                  dct8x8_buf_rd_row_flag        ,
+  input          [               2:               0]     dct8x8_buf_rptr               ,
+  output reg     [ DATA_WIDTH*16-1:               0]     dct8x8_buf_rdata               
 );
 //===========================================================
 //* Internal variables
 //===========================================================
-reg [DATA_WIDTH*8-1:0] dct8x8_buf [0:7] ;
+  reg            [  DATA_WIDTH*8-1:               0]     dct8x8_buf          [0:7]  ;
 
-reg [6:0]   bit_offset_w_0            ;
-reg [6:0]   bit_offset_r_0            ;
+  reg            [               6:               0]     bit_offset_w_0                ;
+  reg            [               6:               0]     bit_offset_r_0                ;
 
-reg [6:0]   bit_offset_w_1            ;
-reg [6:0]   bit_offset_r_1            ;
+  reg            [               6:               0]     bit_offset_w_1                ;
+  reg            [               6:               0]     bit_offset_r_1                ;
 //===========================================================
 //* BUF WRITE BLOCKS
 //===========================================================`
@@ -69,7 +69,7 @@ always @( posedge clk ) begin
             dct8x8_buf[6][bit_offset_w_1+:DATA_WIDTH] <= dct8x8_buf_wdata[15*DATA_WIDTH-1:14*DATA_WIDTH];
             dct8x8_buf[7][bit_offset_w_1+:DATA_WIDTH] <= dct8x8_buf_wdata[16*DATA_WIDTH-1:15*DATA_WIDTH];
         end
-    end      
+    end
 end
 //===========================================================
 //*BUF READ BLOCKS
@@ -119,4 +119,4 @@ end
 
 endmodule
 
-
+                               
